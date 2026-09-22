@@ -1,0 +1,17 @@
+# Secrets OAuth / jetons — ne JAMAIS commiter (ce depot est public)
+client_secret*.json
+credentials*.json
+token*.json
+*.key
+*.pem
+.env
+.env.*
+
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
