@@ -17,70 +17,57 @@ footer { margin-top: 2.5rem; border-top: 1px solid #ddd; padding-top: 1rem; font
 
 <h1>Politique de confidentialité</h1>
 
-<p>Dernière mise à jour : 22 septembre 2026</p>
+<p>Dernière mise à jour : 23 septembre 2026</p>
 
-<p>Tri mails est un outil personnel utilisé par son auteur sur ses propres
-boîtes Gmail. Aucun autre compte que ceux de l'auteur n'est connecté, et
-aucun accès n'est proposé à des tiers.</p>
+<h2>Qui</h2>
 
-<h2>Données lues</h2>
+<p>Tri mails est un outil personnel développé et utilisé par une seule
+personne, sur ses propres boîtes mail. Il n'a pas d'autres utilisateurs.</p>
 
-<p>Une fois l'accès autorisé via l'API Google, l'outil lit, pour chaque
-message&nbsp;:</p>
+<h2>Données traitées</h2>
 
-<ul>
-  <li>l'expéditeur ;</li>
-  <li>les destinataires ;</li>
-  <li>l'objet ;</li>
-  <li>la date ;</li>
-  <li>les en-têtes du message ;</li>
-  <li>un extrait du corps du message, limité à 2&nbsp;000 caractères.</li>
-</ul>
+<p>Avec l'autorisation OAuth accordée par l'utilisateur, l'outil lit les
+messages des boîtes Gmail connectées : expéditeur, destinataires, objet, date,
+en-têtes de liste, et un extrait du corps du message limité à
+2&nbsp;000&nbsp;caractères.</p>
 
-<h2>Finalité</h2>
+<h2>Pourquoi</h2>
 
-<p>Ces données servent uniquement à&nbsp;:</p>
+<p>Ces données servent uniquement à classer les messages par catégorie, à
+déterminer s'ils appellent une réponse, et à préparer des brouillons. Aucun
+autre usage.</p>
 
-<ul>
-  <li>classer les messages par catégorie ;</li>
-  <li>détecter les messages qui appellent une réponse ;</li>
-  <li>préparer des brouillons de réponse.</li>
-</ul>
+<h2>Où elles sont stockées</h2>
 
-<h2>Stockage et durée de conservation</h2>
+<p>Dans une base locale, sur l'ordinateur personnel de l'utilisateur. Les
+extraits de messages sont supprimés au bout de 90 jours. Aucune donnée n'est
+hébergée sur un serveur ou un service en ligne.</p>
 
-<p>Les données sont enregistrées dans une base de données locale, hébergée sur
-un serveur privé contrôlé par l'auteur de l'outil. Les extraits de corps de
-messages sont purgés au bout de 90 jours.</p>
+<h2>Transmission à des tiers</h2>
 
-<h2>Traitements confiés à des tiers</h2>
+<p>Pour la classification, un extrait de chaque message (limité à
+2&nbsp;000&nbsp;caractères, numéros bancaires masqués) est transmis à
+<strong>OpenRouter</strong>, qui l'achemine vers <strong>TypeSafe AI</strong>.</p>
 
-<p>Pour le classement et la rédaction des brouillons, les extraits de messages
-sont transmis à <strong>OpenRouter</strong> et à <strong>TypeSafe AI</strong>,
-qui opèrent les modèles de langage utilisés. Cette transmission a lieu
-uniquement pour produire le classement et les brouillons décrits ci-dessus.</p>
+<p>Lorsque l'utilisateur demande un brouillon de réponse, le fil de discussion
+concerné est transmis à <strong>OpenRouter</strong>, qui l'achemine vers le
+fournisseur du modèle de rédaction choisi.</p>
 
-<h2>Ce qui n'est pas fait</h2>
+<p>Aucune donnée n'est vendue, partagée à des fins publicitaires, ni transmise
+à quiconque d'autre.</p>
 
-<ul>
-  <li>Aucune donnée n'est vendue.</li>
-  <li>Aucune donnée n'est partagée à des fins publicitaires.</li>
-  <li>Aucun message n'est envoyé par l'outil : les réponses rédigées restent
-      des brouillons, envoyés uniquement par une action manuelle de l'auteur.</li>
-</ul>
+<h2>Ce que l'outil ne fait pas</h2>
 
-<h2>Suppression</h2>
+<p>Il n'envoie aucun message. Il ne suit aucun lien contenu dans les messages,
+y compris les liens de désinscription. Il ne supprime rien de façon
+définitive : les messages écartés vont à la corbeille Gmail, d'où ils restent
+récupérables 30 jours.</p>
 
-<p>Lorsqu'un message est supprimé, il est placé dans la corbeille Gmail, où il
-reste récupérable pendant 30 jours avant suppression définitive par Google.</p>
+<h2>Révoquer l'accès</h2>
 
-<h2>Retrait de l'autorisation</h2>
-
-<p>L'accès accordé à l'outil peut être révoqué à tout moment depuis les
-paramètres de sécurité du compte Google, à la page des applications ayant
-accès au compte
-(<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>).
-Après révocation, l'outil ne peut plus lire aucun message.</p>
+<p>L'utilisateur peut retirer à tout moment l'autorisation depuis les
+paramètres de sécurité de son compte Google, section applications tierces
+(<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>).</p>
 
 <h2>Contact</h2>
 
